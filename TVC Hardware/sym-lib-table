@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MPU_6500")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/MPU-6500.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_Teensy")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/MCU_Teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "BMP390")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/BMP390.kicad_sym")(options "")(descr ""))
+  (lib (name "5V_Regulator")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/5V_Regulator.kicad_sym")(options "")(descr ""))
+  (lib (name "5V_Boost")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/5V_Boost.kicad_sym")(options "")(descr ""))
+  (lib (name "Servo_Pins")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Servo-Pins.kicad_sym")(options "")(descr ""))
+  (lib (name "Terminal_Block")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/691137710002.kicad_sym")(options "")(descr ""))
+  (lib (name "JST")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/B2B-PH-K-S.kicad_sym")(options "")(descr ""))
+  (lib (name "IMU")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/ICM-42670-P.kicad_sym")(options "")(descr ""))
+)
