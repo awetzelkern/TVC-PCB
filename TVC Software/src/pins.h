@@ -17,7 +17,7 @@
 #define SPI_SCK 13
 #define TVCX 14
 #define TVCY 15
-#define BUZZER_SIG 16
+#define BUZZER 16
 #define GRN 17
 #define LORA_DIO1 18
 #define LORA_DIO0 19
