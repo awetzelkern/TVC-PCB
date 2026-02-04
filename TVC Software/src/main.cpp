@@ -70,7 +70,6 @@ static void idleHigh() {
 
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(LED_BUILTIN, OUTPUT);
   
   Serial.begin(115200); // baud rate = 115200 bits/s
@@ -136,14 +135,14 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // BMP390 read
   bool bmp_ok = bmp.performReading();
 
-  // ---- IMU read ----
+  // IMU read 
   inv_imu_sensor_event_t evt;
   int imu_rc = imu.getDataFromRegisters(&evt);
 
-  // ---- Print ----
+  // Print
   if (bmp_ok) {
     Serial.print("BMP T="); Serial.print(bmp.temperature, 2);
     Serial.print("C P=");   Serial.print(bmp.pressure, 1);
